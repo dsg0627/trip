@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip | 热门景点</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="list">
+<header class="site-header">
+    <a class="brand" href="index.html">Trip</a>
+    <nav class="nav">
+        <a href="index.html">首页</a>
+        <a href="attractions.html">热门景点</a>
+        <a href="about.html">关于我们</a>
+        <a href="contact.html">联系反馈</a>
+    </nav>
+</header>
+
+<main class="page-shell">
+    <section class="page-banner compact">
+        <span class="eyebrow">中国 10 大热门景点</span>
+        <h1>按季节、风格和旅行动机筛选你的下一站</h1>
+        <p>首版收录 10 个高关注度目的地，每个条目都可进入独立攻略详情页。</p>
+    </section>
+
+    <section class="filters surface">
+        <div>
+            <label for="season-filter">旅行季节</label>
+            <select id="season-filter">
+                <option value="all">全部季节</option>
+                <option value="春季">春季</option>
+                <option value="夏季">夏季</option>
+                <option value="秋季">秋季</option>
+                <option value="冬季">冬季</option>
+            </select>
+        </div>
+        <div>
+            <label for="keyword-input">关键词</label>
+            <input id="keyword-input" type="text" placeholder="搜索景点、城市、标签">
+        </div>
+    </section>
+
+    <section>
+        <div id="list-grid" class="card-grid"></div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>Trip Travel Guide</p>
+    <p>热门景点列表页</p>
+</footer>
+
+<script src="data/attractions.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

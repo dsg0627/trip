@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip | 联系反馈</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="contact">
+<header class="site-header">
+    <a class="brand" href="index.html">Trip</a>
+    <nav class="nav">
+        <a href="index.html">首页</a>
+        <a href="attractions.html">热门景点</a>
+        <a href="about.html">关于我们</a>
+        <a href="contact.html">联系反馈</a>
+    </nav>
+</header>
+
+<main class="page-shell">
+    <section class="page-banner compact">
+        <span class="eyebrow">联系与反馈</span>
+        <h1>欢迎提交建议，帮助我们把攻略做得更好用</h1>
+        <p>当前首版以内容展示为主，表单先作为页面原型，后续可接入真实提交接口。</p>
+    </section>
+
+    <section class="surface contact-grid">
+        <form class="contact-form">
+            <label>
+                你的称呼
+                <input type="text" placeholder="请输入姓名或昵称">
+            </label>
+            <label>
+                联系方式
+                <input type="text" placeholder="邮箱 / 微信 / 手机号">
+            </label>
+            <label>
+                反馈类型
+                <select>
+                    <option>内容建议</option>
+                    <option>合作咨询</option>
+                    <option>Bug 反馈</option>
+                </select>
+            </label>
+            <label>
+                反馈内容
+                <textarea rows="6" placeholder="请输入你的建议"></textarea>
+            </label>
+            <button type="button" class="button primary">提交反馈</button>
+        </form>
+        <aside class="contact-side">
+            <h2>可以反馈什么</h2>
+            <ul>
+                <li>景点信息缺失或需要更新</li>
+                <li>希望新增的旅行主题或城市专题</li>
+                <li>页面体验、视觉风格或内容结构建议</li>
+            </ul>
+        </aside>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>Trip Travel Guide</p>
+    <p>联系反馈页</p>
+</footer>
+
+<script src="data/attractions.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
