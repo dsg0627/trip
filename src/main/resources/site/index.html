@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip | 中国热门旅行攻略</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body data-page="home">
+<header class="site-header">
+    <a class="brand" href="/index.html">Trip</a>
+    <nav class="nav">
+        <a href="/index.html">首页</a>
+        <a href="/attractions.html">热门景点</a>
+        <a href="/about.html">关于我们</a>
+        <a href="/contact.html">联系反馈</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-copy">
+            <span class="eyebrow">中国旅行攻略网站</span>
+            <h1>从山海湖城出发，安排一场值得期待的旅程</h1>
+            <p>聚焦中国 10 大热门旅行目的地，整合最佳季节、交通、路线、美食和住宿建议，帮助你快速制定自由行攻略。</p>
+            <div class="hero-actions">
+                <a class="button primary" href="/attractions.html">查看热门景点</a>
+                <a class="button ghost" href="#season-panel">季节推荐</a>
+            </div>
+        </div>
+        <div class="hero-panel">
+            <div class="metric-card">
+                <strong>10</strong>
+                <span>大热门景点</span>
+            </div>
+            <div class="metric-card">
+                <strong>4</strong>
+                <span>季节出游主题</span>
+            </div>
+            <div class="metric-card wide">
+                <strong>统一攻略模板</strong>
+                <span>门票、交通、路线、美食、住宿一页掌握</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section surface">
+        <div class="section-head">
+            <div>
+                <span class="eyebrow">热门推荐</span>
+                <h2>先从这几个高热目的地开始</h2>
+            </div>
+            <a class="text-link" href="/attractions.html">查看全部景点</a>
+        </div>
+        <div id="featured-grid" class="card-grid"></div>
+    </section>
+
+    <section id="season-panel" class="section season-layout">
+        <div>
+            <span class="eyebrow">按季节出发</span>
+            <h2>四季都有值得奔赴的风景</h2>
+        </div>
+        <div class="season-grid">
+            <article>
+                <h3>春季</h3>
+                <p>推荐西湖、故宫。花期与古建景观结合，气候舒适，适合城市漫游和轻摄影。</p>
+            </article>
+            <article>
+                <h3>夏季</h3>
+                <p>推荐九寨沟、桂林山水。避暑与亲水体验突出，适合家庭出游和自然风光路线。</p>
+            </article>
+            <article>
+                <h3>秋季</h3>
+                <p>推荐黄山、长城。山色层林尽染，空气通透，是徒步和远景拍摄的黄金时段。</p>
+            </article>
+            <article>
+                <h3>冬季</h3>
+                <p>推荐三亚、布达拉宫。可以选择温暖海滨度假，也可以体验高原冬日的人文震撼。</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section surface story-strip">
+        <div>
+            <span class="eyebrow">攻略亮点</span>
+            <h2>为什么这版内容适合直接做首发站点</h2>
+        </div>
+        <div class="pillars">
+            <article>
+                <h3>内容结构统一</h3>
+                <p>每个景点都按亮点、时间、交通、路线、住宿与贴士展开，阅读成本更低。</p>
+            </article>
+            <article>
+                <h3>移动端优先适配</h3>
+                <p>首页、列表页和详情页都针对手机阅读节奏做了卡片式信息编排。</p>
+            </article>
+            <article>
+                <h3>便于后续扩展</h3>
+                <p>景点数据独立存放，后续接搜索、收藏、评论、后台管理都更容易。</p>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>Trip Travel Guide</p>
+    <p>中国热门旅行攻略首发版</p>
+</footer>
+
+<script src="/data/attractions.js"></script>
+<script src="/assets/main.js"></script>
+</body>
+</html>
